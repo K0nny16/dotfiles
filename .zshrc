@@ -22,6 +22,7 @@ alias ls="lsd"
 alias lla="ls -la"
 alias lt="ls --tree"
 alias code="vscodium"
+alias vim="nvim"
 
 #Binds
 bindkey '^a' beginning-of-line
