@@ -56,6 +56,8 @@ On a Arch-based system, you can install these additional tools with the followin
 ```sh
 sudo pacman -S unzip xrandr npm bat xh jless neofetch fzf zoxide lsd xorg
 
+```
+
 ###Auto start i3
 ```sh
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
