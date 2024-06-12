@@ -49,7 +49,7 @@ Make sure you also install the following tools and utilities:
 - [lsd](https://github.com/Peltoche/lsd) - A modern replacement for `ls` with additional features.
 
 
-### Installation Commands for Additional Tools
+### Installation Command for Additional Tools
 
 On a Arch-based system, you can install these additional tools with the following commands:
 
@@ -58,7 +58,7 @@ sudo pacman -S unzip xrandr npm bat xh jless neofetch fzf zoxide lsd xorg
 
 ```
 
-##Auto start i3
+## Auto start i3
 ```sh
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
   exec startx
