@@ -1,4 +1,4 @@
-# My Dotfiles
+# My Dotfiles X11
 
 This repository contains my configuration files (dotfiles) for various tools and applications that I use in my development environment.
 
