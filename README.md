@@ -22,41 +22,35 @@ To use these dotfiles, you need to have the following dependencies installed:
     git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
     ```
 
-2. Install the necessary dependencies for your system. Here are the commands for installing them on a Debian-based system (like Ubuntu):
-
-    ```sh
-    sudo apt update
-    sudo apt install alacritty i3 picom neovim zsh stow
-    ```
-
-    Additionally, install Starship:
-
-    ```sh
-    curl -fsSL https://starship.rs/install.sh | bash
-    ```
-
-    And install Oh My Zsh:
-
-    ```sh
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    ```
-
-3. Use `stow` to manage your dotfiles. Navigate to the dotfiles directory and stow the packages:
+2. Use `stow` to manage your dotfiles. Navigate to the dotfiles directory and stow the packages:
 
     ```sh
     cd ~/dotfiles
-    stow alacritty
-    stow i3
-    stow picom
-    stow nvim
-    stow zsh
+    stow --adapt .
     ```
 
-## Configuration
+## Don't Forget
 
-### Alacritty
+Make sure you also install the following tools and utilities:
 
-Copy the `alacritty.yml` file to your configuration directory:
+- [zsh-autocompletion](https://github.com/zsh-users/zsh-completions) - Additional completion definitions for Zsh.
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh.
+- `unzip` - Utility for extracting compressed files.
+- `xorg` - Base package for the X Window System.
+- `xrandr` - Utility to set the screen size, orientation, and/or reflection.
+- [npm](https://www.npmjs.com/) - Package manager for JavaScript.
+- [bat](https://github.com/sharkdp/bat) - A cat clone with syntax highlighting and Git integration.
+- [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests.
+- [jless](https://github.com/PaulJuliusMartinez/jless) - A command-line JSON viewer.
+- [neofetch](https://github.com/dylanaraps/neofetch) - System information tool.
+- [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command, inspired by z and autojump.
+- [lsd](https://github.com/Peltoche/lsd) - A modern replacement for `ls` with additional features.
+
+
+### Installation Commands for Additional Tools
+
+On a Arch-based system, you can install these additional tools with the following commands:
 
 ```sh
-cp ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+sudo pacman -S unzip xorg xrandr npm bat xh jless neofetch fzf zoxide lsd
