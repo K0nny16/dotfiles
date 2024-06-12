@@ -37,6 +37,7 @@ Make sure you also install the following tools and utilities:
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell-like syntax highlighting for Zsh.
 - `unzip` - Utility for extracting compressed files.
 - `xorg` - Base package for the X Window System.
+- `xorg-xinit` - To open window managers and DE (exec i3)
 - `xrandr` - Utility to set the screen size, orientation, and/or reflection.
 - [npm](https://www.npmjs.com/) - Package manager for JavaScript.
 - [bat](https://github.com/sharkdp/bat) - A cat clone with syntax highlighting and Git integration.
@@ -53,4 +54,10 @@ Make sure you also install the following tools and utilities:
 On a Arch-based system, you can install these additional tools with the following commands:
 
 ```sh
-sudo pacman -S unzip xorg xrandr npm bat xh jless neofetch fzf zoxide lsd
+sudo pacman -S unzip xrandr npm bat xh jless neofetch fzf zoxide lsd xorg
+
+###Auto start i3
+```sh
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+  exec startx
+fi
