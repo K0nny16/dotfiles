@@ -58,7 +58,7 @@ sudo pacman -S unzip xrandr npm bat xh jless neofetch fzf zoxide lsd xorg
 
 ```
 
-## Auto start i3
+## Auto start i3 (Place in shell)
 ```sh
 if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
   exec startx
