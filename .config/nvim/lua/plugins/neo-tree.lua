@@ -7,7 +7,17 @@ return{
     "MunifTanjim/nui.nvim",
   },
   config = function()
-    vim.keymap.set('n', '<C-n>' ,':Neotree filesystem float <CR>', {})
+  require("neo-tree").setup({
+      event_handlers = {
+        {
+          event = "file_opened",
+          handler = function(file_path)
+          require("neo-tree.command").execute({action = "close"})
+          end
+        },
+      }
+    })
+  vim.keymap.set('n', '<C-n>' ,':Neotree filesystem left <CR>', {})
 end
 }
 

@@ -204,4 +204,4 @@ client.urgent		#fe8019 #fe8019 #ebdbb2 #fe8019 #fe8019
 
 exec_always nitrogen --restore
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
+exec_always --no-startup-id picom 
