@@ -52,11 +52,11 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # i3 gaps
-gaps inner 16
-gaps outer 16
+gaps inner 10
+gaps outer 10
 
 #window
-default_border normal
+default_border pixel
 title_align center
 
 # start a terminal
