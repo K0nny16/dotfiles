@@ -4,7 +4,6 @@ program ="/bin/zsh"
 
 
 [window]
-opacity = 0.9
 
 [font]
 normal = {family = "JetBrainsMonoNerdFont", style ="Regular"}
