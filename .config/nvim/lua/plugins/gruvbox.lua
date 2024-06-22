@@ -1,11 +1,13 @@
 return{
 "ellisonleao/gruvbox.nvim",
 	priority = 1000,
-config = function()
-  require("gruvbox").setup({
-      transparent_mode = true,
-    })
-	vim.cmd.colorscheme "gruvbox"
-end
+    init = function()
+    vim.o.background = "dark"
+    vim.cmd.colorscheme "gruvbox"
+    vim.cmd.hi "Comment gui=none"
+    vim.cmd.hi "CursorLineNr guibg=NONE"
+    vim.cmd.hi "clear SignColumn"
+    vim.cmd.hi "clear TabLineFill"
+    end,
 }
 
