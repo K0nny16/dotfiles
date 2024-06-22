@@ -1,4 +1,5 @@
 #!/bin/bash
+chsh -s /bin/zsh
 
 #Removing premade folders.
 rm -rf ~/.config/i3
