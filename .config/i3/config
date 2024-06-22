@@ -52,8 +52,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # i3 gaps
-gaps inner 10
-gaps outer 10
+gaps inner 40
+gaps outer -10
 
 #window
 default_border pixel
