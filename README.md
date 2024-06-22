@@ -47,7 +47,7 @@ Make sure you also install the following tools and utilities:
 - [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command, inspired by z and autojump.
 - [lsd](https://github.com/Peltoche/lsd) - A modern replacement for `ls` with additional features.
-- [Nerdfonts](ttf-jetbrains-mono-nerd) - For fonts and icons.
+- Nerdfonts - For fonts and icons. (pacman -S ttf-jetbrains-mono-nerd)
 
 ### Installation Command for Additional Tools
 
