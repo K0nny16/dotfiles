@@ -11,7 +11,7 @@ To use these dotfiles, you need to have the following dependencies installed:
 - [picom](https://github.com/yshui/picom) - A lightweight compositor for X11.
 - [Neovim (nvim)](https://neovim.io/) - A hyperextensible Vim-based text editor.
 - [Starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell.
-- [Zsh](https://www.zsh.org/) - A powerful shell with scripting capabilities. You'll also need [Oh My Zsh](https://ohmyz.sh/) or a similar Zsh framework.
+- [Zsh](https://www.zsh.org/) - A powerful shell with scripting capabilities.
 - `xorg` - Base package for the X Window System.
 - `xorg-xinit` - To open window managers and DE (exec i3)
 - Nerdfonts - For fonts and icons. (pacman -S ttf-jetbrains-mono-nerd)
