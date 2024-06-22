@@ -1,6 +1,6 @@
 #Run startx on login in tty1 
-if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1]; then
-    exec startx
+if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
+    startx
 fi
 
 
