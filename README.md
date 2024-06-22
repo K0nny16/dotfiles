@@ -14,7 +14,7 @@ To use these dotfiles, you need to have the following dependencies installed:
 - [Zsh](https://www.zsh.org/) - A powerful shell with scripting capabilities.
 - `xorg` - Base package for the X Window System.
 - `xorg-xinit` - To open window managers and DE (exec i3)
-- Nerdfonts - For fonts and icons. (pacman -S ttf-jetbrains-mono-nerd)
+- Nerdfonts - For fonts and icons. (ttf-jetbrains-mono-nerd)
 
 ## Installation
 
