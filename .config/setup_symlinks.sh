@@ -14,10 +14,11 @@ ln -s ~/dotfiles/.config/picom.conf ~/.config/picom.conf
 ln -s ~/dotifles/.config/neofetch ~/.config/neofetch
 ln -s ~/dotfiles/.config/nvim ~/.config/nvim
 
+echo "Dotfiles symlinked successfully!"
+
 #Cloning shell tools
 mkdir -p ~/.config/.zshplugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/.zshplugins
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.config/.zshplugins
 
-
-echo "Dotfiles symlinked successfully!"
+echo "Shell pluggins added successfully!"
