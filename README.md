@@ -24,14 +24,18 @@ To use these dotfiles, you need to have the following dependencies installed:
     git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
     ```
 2. Navigate to the dotfiles folder:
-    ```sh
+
+   ```sh
     cd dotfiles
     ```
 3. Make the install script executable:
+  
     ```sh
     chmod +x setup_symlinks.sh
     ```
-4.Run it and check for successes message:
+
+4. Run it and check for successes message:
+
     ```sh
     ./setup_symlinks.sh
     ```
