@@ -3,6 +3,7 @@ chsh -s /bin/zsh
 
 #Removing premade folders.
 rm -rf ~/.config/i3
+rm ~/.config/neofetch/config.conf
 
 #Setting up symlinks
 ln -s ~/dotfiles/.config/alacritty /home/$USER/.config/alacritty
@@ -11,7 +12,7 @@ ln -s ~/dotfiles/.config/i3 /home/$USER/.config/i3
 ln -s ~/dotfiles/.config/polybar /home/$USER/.config/polybar
 ln -s ~/dotfiles/.config/starship.toml /home/$USER/.config/starship.toml
 ln -s ~/dotfiles/.config/picom.conf /home/$USER/.config/picom.conf
-ln -s ~/dotifles/.config/neofetch /home/$USER/.config/neofetch
+ln -s ~/dotifles/.config/neofetch/config.conf /home/$USER/.config/neofetch/config.conf
 ln -s ~/dotfiles/.config/nvim /home/$USER.config/nvim
 
 echo "Dotfiles symlinked successfully!"
