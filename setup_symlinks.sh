@@ -4,6 +4,7 @@ chsh -s /bin/zsh
 
 #Removing premade folders and creating .config.
 rm -rf ~/.config/i3
+mkdir -p ~/.config
 
 #Setting up symlinks
 ln -s ~/dotfiles/.config/alacritty /home/$USER/.config/alacritty
