@@ -5,6 +5,8 @@ chsh -s /bin/zsh
 #Removing premade folders and creating .config.
 rm -rf ~/.config/i3
 mkdir -p ~/.config
+
+neofetch
 rm ~/.config/neofetch/config.conf
 
 #Setting up symlinks
